@@ -8,6 +8,10 @@ packages = [{include = "utae_paps"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+numpy = "^1.24.2"
+geopandas = "^0.12.2"
+torch = "^1.13.1"
+torchnet = "^0.0.4"
 
 
 [build-system]
