@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "utae-paps"
+version = "0.1.0"
+description = ""
+authors = ["Peanut_Zhou <huazhen-zhou@foxmail.com>"]
+readme = "README.md"
+packages = [{include = "utae_paps"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
